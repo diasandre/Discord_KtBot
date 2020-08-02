@@ -5,7 +5,7 @@ import io.andakawa.bot.listeners.eventListener
 import net.dv8tion.jda.core.AccountType
 import net.dv8tion.jda.core.JDABuilder
 
-class Bot(val token: String) {
+class Bot(private val token: String) {
     val commands = listOf (
             Ping()
     )
